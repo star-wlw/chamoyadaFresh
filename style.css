@@ -977,3 +977,39 @@ color: #e53935;
   width: 35px;
   height: 35px;
 }
+
+@media (max-width: 768px){
+
+  .hero{
+    padding: 0;
+    height: auto;
+    min-height: auto;
+  }
+
+  .hero-content{
+    width: 100%;
+    padding: 0;
+  }
+
+  .hero-cups{
+    width: 100%;
+  }
+
+  .hero-banner-img{
+    width: 100%;
+    height: auto;
+
+    display: block;
+
+    object-fit: contain;
+  }
+
+  .banner-btn{
+    left: 20px;
+    bottom: 30px;
+
+    width: 170px;
+    height: 65px;
+  }
+
+}
